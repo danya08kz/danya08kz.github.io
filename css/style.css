@@ -28,7 +28,7 @@ section {
     margin-bottom: 80px;
     max-width: 1920px;
     margin: 0 auto 80px;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 header {
     height: 120px;
