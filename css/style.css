@@ -182,7 +182,7 @@ header .container .menu .menu__item:first-child{
     padding: 20px 30px;
     background: #FFE300;
     font-weight: 600;
-    box-shadow: 0px 10px 7px 0px rgb(176 176 2 / 62%);
+    box-shadow: 0px 2px 7px 0px rgb(176 176 2 / 62%);
     transition: 0.3s all;
     color: black;
 }
@@ -326,10 +326,12 @@ header .container .menu .menu__item:first-child{
 }
 #achievments .container .ach__item .ach__item__subitem {
     width: fit-content;
-    padding: 2px;
+    padding: 8px;
     display: inline;
     margin: 0 10px 10px 0;
     font-size: 14px;
+    font-weight: 600;
+    background: white;
 }
 #achievments .container .ach__item .ach__item__title::before {
     content: '';
@@ -657,7 +659,7 @@ header .container .menu .menu__item:first-child{
     padding: 20px 30px;
     background: #FFE300;
     font-weight: 600;
-    box-shadow: 0px 10px 7px 0px rgb(176 176 2 / 62%);
+    box-shadow: 0px 2px 7px 0px rgb(176 176 2 / 62%);
     transform: translateX(-34px);
     transition: 0.3s all;
     cursor: pointer;
@@ -727,11 +729,11 @@ header .container .menu .menu__item:first-child{
 }
 #idea .container .idea__wrapper .idea__text span{
     font-size: 24px;
-    box-shadow: inset 0 -0.375em #e6ff03cc, inset 0 -0.45em #ffffff;
+    box-shadow: inset 0 -0.375em #ffe503cc, inset 0 -0.45em #ffffff;
 }
 #idea .container .idea__wrapper .idea__text b{
     font-size: 24px;
-    box-shadow: inset 0 -0.375em #e5ff00cc, inset 0 -0.45em #ffffff;
+    box-shadow: inset 0 -0.375em #ffe503cc, inset 0 -0.45em #ffffff;
 }
 
 #ruslan {
@@ -781,7 +783,7 @@ header .container .menu .menu__item:first-child{
     padding: 20px 30px;
     background: #FFE300;
     font-weight: 600;
-    box-shadow: 0px 10px 7px 0px rgb(176 176 2 / 62%);
+    box-shadow: 0px 2px 7px 0px rgb(176 176 2 / 62%);
     transform: translateX(-34px);
     transition: 0.3s all;
 }
@@ -860,7 +862,7 @@ header .container .menu .menu__item:first-child{
     padding: 20px 30px;
     background: #FFE300;
     font-weight: 600;
-    box-shadow: 0px 10px 7px 0px rgb(176 176 2 / 62%);
+    box-shadow: 0px 2px 7px 0px rgb(176 176 2 / 62%);
     transition: 0.3s all;
     display: block;
     text-align: center;
@@ -994,7 +996,7 @@ header .container .menu .menu__item:first-child{
 }
 #we2 .we2__wrap .we2__text .text-2 {
     font-size: 18px;
-    box-shadow: inset 0 -0.375em #e6ff03cc, inset 0 -0.45em #ffffff;
+    box-shadow: inset 0 -0.375em #ffe503cc, inset 0 -0.45em #ffffff;
 }
 
 #ppl .container h2 {
@@ -1020,15 +1022,16 @@ header .container .menu .menu__item:first-child{
     font-size: 23px;
     margin-bottom: 60px;
     position: relative;
+    padding: 0 0 0 30px;
 }
 #ppl .container .ppl__wrap .ppl__julia div:first-child p:first-child::before {
     content: '';
     background: url(../img/svg/kovichki.svg) center/cover no-repeat;
-    width: 30px;
-    height: 31px;
+    width: 25px;
+    height: 25px;
     position: absolute;
-    left: -70px;
-    top: -15px;
+    left: -5px;
+    top: 0px;
 }
 #ppl .container .ppl__wrap .ppl__julia div:first-child p:last-child {
     font-size: 23px;
@@ -1064,21 +1067,36 @@ header .container .menu .menu__item:first-child{
     bottom: -1px;
 }
 
-
+#road .container .btn-ye {
+    padding: 20px 30px;
+    background: #FFE300;
+    font-weight: 600;
+    box-shadow: 0px 2px 7px 0px rgb(176 176 2 / 62%);
+    transition: 0.3s all;
+    display: block;
+    text-align: center;
+    margin: 30px auto 0;
+    cursor: pointer;
+    max-width: fit-content;
+}
+#road .container .btn-ye:hover {
+    box-shadow: none;
+}
 
 #ppl .container .ppl__wrap .ppl__pavel div:last-child p {
     font-size: 23px;
     margin-bottom: 60px;
     position: relative;
+    padding: 0 0 0 30px;
 }
 #ppl .container .ppl__wrap .ppl__pavel div:last-child p:first-child::before {
     content: '';
     background: url(../img/svg/kovichki.svg) center/cover no-repeat;
-    width: 30px;
-    height: 31px;
+    width: 25px;
+    height: 25px;
     position: absolute;
-    left: -70px;
-    top: -15px;
+    left: -5px;
+    top: 0px;
 }
 #ppl .container .ppl__wrap .ppl__pavel div:last-child p:last-child {
     font-size: 23px;
@@ -1413,16 +1431,18 @@ header .container .menu .menu__item:first-child{
     width: 80%;
     margin: 0 0 0 auto;
     background: rgb(255, 196, 0);
-    padding: 20% 10%;
+    padding: 30% 10%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+
     position: relative;
 }
 .mobile-menu nav a{
     text-decoration: none;
     color: black;
     font-size: 35px;
+    margin-bottom: 20px;
 }
 .mobile-menu nav .mobile-nav {
     position: absolute;
@@ -1477,6 +1497,9 @@ header .container .menu .menu__item:first-child{
         display: none;
     }
 }
+
+
+
 @media (max-width: 1280px) {
     .container {
         width: 100%;
@@ -1552,6 +1575,7 @@ header .container .menu .menu__item:first-child{
         flex-direction: column;
         padding: 0 70px;
         justify-content: flex-start;
+        background: #cecece40;
     }
     #achievments .container .ach__item {
         width: 100%;
@@ -1620,6 +1644,8 @@ header .container .menu .menu__item:first-child{
         align-items: center;
         margin: 20px 0;
         height: auto;
+        width: 500px;
+        min-width: 260px;
     }
     #res-form .container .right-box form div {
         width: 100%;
@@ -1644,8 +1670,8 @@ header .container .menu .menu__item:first-child{
     }
     #stats .container {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+        align-items: flex-start;
+        justify-content: flex-start;
         flex-wrap: wrap;
         width: 100%;
     }
@@ -1764,7 +1790,7 @@ header .container .menu .menu__item:first-child{
         padding: 20px 30px;
         background: #FFE300;
         font-weight: 600;
-        box-shadow: 0px 10px 7px 0px rgb(176 176 2 / 62%);
+        box-shadow: 0px 2px 7px 0px rgb(176 176 2 / 62%);
         transform: translateX(-12px);
         transition: 0.3s all;
         cursor: pointer;
@@ -1975,6 +2001,17 @@ header .container .menu .menu__item:first-child{
         padding: 20px 0;
     }
 }
+
+@media (max-width: 768px) {
+    #res-form .container .left-box {
+        width: 100%;
+        margin: 0 auto;
+        text-align: left;
+    }
+    #res-form .container .right-box form {
+        width: 100%;
+    }
+}
 @media (max-width: 550px) {
     #we2 .we2__wrap .we2__img img {
         width: 100%;
@@ -2005,22 +2042,24 @@ header .container .menu .menu__item:first-child{
         padding: 16px 20px;
     }
     #about-us .about-right {
-        padding: 0px 0 0 20px;
-        height: 295px;
+        padding: 0px 0 20px 20px;
+        height: 400px;
+        justify-content: flex-end;
     }
     #about-us .about-right p {
-        font-size: 22px;
+        font-size: 26px;
         color: white;
-        line-height: 22px;
-        margin-bottom: 60px;
+        line-height: 27px;
+        margin-bottom: 10px;
         font-weight: 600;
+        padding: 0 60px 0 0;
     }
     #about-us .about-left p {
         padding: 0;
     }
     #about-info p {
         position: relative;
-        font-size: 20px;
+        font-size: 26px;
         padding: 0;
         text-align: center;
         font-weight: 600;
@@ -2028,15 +2067,17 @@ header .container .menu .menu__item:first-child{
     }
     #about-info .about__items {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-evenly;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     #about-info .about__items hr{
         display: none;
     }
     #about-info .about__items__block {
         margin: 20px 0;
+        width: 50%;
     }
     #about-info .about__items__block img {
         display: flex;
@@ -2045,27 +2086,30 @@ header .container .menu .menu__item:first-child{
         justify-content: center;
         text-align: center;
         margin-bottom: 20px;
-        width: 25%;
+        width: 54%;
     }
     #stats .container .stats__item {
-        width: 100%;
+        width: 50%;
         display: flex;
         flex-direction: column;
         align-content: center;
         justify-content: center;
         padding: 0 20px;
         transition: 0.3s all;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     #stats {
         height: auto;
         padding: 20px 0;
     }
     #stats .container .stats__item span:first-child {
-        font-size: 40px;
+        font-size: 27px;
         font-weight: 600;
-        margin: 0 0 10px 0;
+        margin: 0 0 5px 0;
         transition: 0.3s all;
+    }
+    #achievments {
+        height: 840px;
     }
     #achievments .container .ach__item .ach__item__title {
         font-size: 14px;
@@ -2083,7 +2127,7 @@ header .container .menu .menu__item:first-child{
         display: inline;
         margin: 0 10px 10px 0;
         font-size: 12px;
-        background: rgb(246 246 246);
+        background: rgb(255 255 255);
     }
     #achievments .container .ach__item .ach__item__text {
         font-size: 12px;
@@ -2136,7 +2180,7 @@ header .container .menu .menu__item:first-child{
         padding: 15px 30px;
         background: #FFE300;
         font-weight: 600;
-        box-shadow: 0px 10px 7px 0px rgb(176 176 2 / 62%);
+        box-shadow: 0px 2px 7px 0px rgb(176 176 2 / 62%);
         transform: translateX(-12px);
         transition: 0.3s all;
         cursor: pointer;
@@ -2159,11 +2203,11 @@ header .container .menu .menu__item:first-child{
     #idea .container .idea__wrapper .idea__text span {
         font-size: 20px;
         font-weight: 700;
-        box-shadow: inset 0 -0.375em #e6ff03cc, inset 0 -0.45em #ffffff;
+        box-shadow: inset 0 -0.375em #ffe503cc, inset 0 -0.45em #ffffff;
     }
     #idea .container .idea__wrapper .idea__text b {
         font-size: 20px;
-        box-shadow: inset 0 -0.375em #e5ff00cc, inset 0 -0.45em #ffffff;
+        box-shadow: inset 0 -0.375em #ffe503cc, inset 0 -0.45em #ffffff;
     }
     #ruslan .container .first-box p {
         font-size: 20px;
@@ -2336,7 +2380,7 @@ header .container .menu .menu__item:first-child{
         font-size: 24px;
     }
     .mobile-menu nav {
-        justify-content: space-around;
+        justify-content: flex-start;
     }
     #about-info .about__items__block span {
         font-weight: 900;
@@ -2345,6 +2389,7 @@ header .container .menu .menu__item:first-child{
     #stats img {
         width: 380px;
         overflow: hidden;
+        display: none;
     }
     #achievments .container {
         padding: 0 40px;
@@ -2359,4 +2404,5 @@ header .container .menu .menu__item:first-child{
         font-weight: 600;
         padding: 0 0 0 45px;
     }
+
 }
