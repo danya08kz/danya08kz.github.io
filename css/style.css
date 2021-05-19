@@ -180,7 +180,7 @@ header .container .menu .menu__item:first-child{
 #about-us .about-right a {
     display: block;
     padding: 20px 30px;
-    background: yellow;
+    background: #FFE300;
     font-weight: 600;
     box-shadow: 0px 10px 7px 0px rgb(176 176 2 / 62%);
     transition: 0.3s all;
@@ -655,7 +655,7 @@ header .container .menu .menu__item:first-child{
 }
 #alla .container .first-box .btn-ye {
     padding: 20px 30px;
-    background: yellow;
+    background: #FFE300;
     font-weight: 600;
     box-shadow: 0px 10px 7px 0px rgb(176 176 2 / 62%);
     transform: translateX(-34px);
@@ -699,10 +699,10 @@ header .container .menu .menu__item:first-child{
 }
 #idea .container .idea__back{
     position: absolute;
-    font-size: 320px;
+    font-size: 220px;
     opacity: 0.05;
     left: 32%;
-    top: -182px;
+    top: -38px;
     font-weight: 500;
 }
 #idea .container .idea__wrapper {
@@ -779,7 +779,7 @@ header .container .menu .menu__item:first-child{
 }
 #ruslan .container .first-box a {
     padding: 20px 30px;
-    background: yellow;
+    background: #FFE300;
     font-weight: 600;
     box-shadow: 0px 10px 7px 0px rgb(176 176 2 / 62%);
     transform: translateX(-34px);
@@ -814,10 +814,10 @@ header .container .menu .menu__item:first-child{
 }
 #ruslan .container .ruslan__back{
     position: absolute;
-    font-size: 270px;
+    font-size: 220px;
     opacity: 0.05;
     left: -11%;
-    top: -178px;
+    top: -38px;
     font-weight: 500;
 }
 
@@ -858,7 +858,7 @@ header .container .menu .menu__item:first-child{
 }
 #spec .container .btn-ye {
     padding: 20px 30px;
-    background: yellow;
+    background: #FFE300;
     font-weight: 600;
     box-shadow: 0px 10px 7px 0px rgb(176 176 2 / 62%);
     transition: 0.3s all;
@@ -943,10 +943,10 @@ header .container .menu .menu__item:first-child{
 }
 #we2 .container .we2__back {
     position: absolute;
-    font-size: 255px;
+    font-size: 175px;
     opacity: 0.05;
-    left: 20%;
-    top: -171px;
+    left: 50%;
+    top: -29px;
     z-index: -10;
     font-weight: 500;
 }
@@ -984,8 +984,8 @@ header .container .menu .menu__item:first-child{
     background: url(../img/pazl.svg) center / cover no-repeat;
     width: 100px;
     height: 100px;
-    right: -24px;
-    top: -90px;
+    right: -14px;
+    top: -55px;
 }
 #we2 .we2__wrap .we2__text .text-1 {
     font-size: 18px;
@@ -1750,7 +1750,7 @@ header .container .menu .menu__item:first-child{
     }
     #alla .container .first-box .btn-ye {
         padding: 20px 30px;
-        background: yellow;
+        background: #FFE300;
         font-weight: 600;
         box-shadow: 0px 10px 7px 0px rgb(176 176 2 / 62%);
         transform: translateX(-12px);
