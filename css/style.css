@@ -417,9 +417,11 @@ header .container .menu .menu__item:first-child{
 }
 
 .faq-accordion__icon {
-    display: inline-block;
-    width: 25px;
-    height: 25px;
+    display: flex;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -429,6 +431,7 @@ header .container .menu .menu__item:first-child{
 
 .faq-accordion.open .faq-accordion__icon {
     transform: rotate(0deg) scale(0.5);
+    border: 1px solid black;
 }
 .faq-accordion__subtitle {
     font-size: 16px;
@@ -518,6 +521,7 @@ header .container .menu .menu__item:first-child{
 #res-form .container .right-box form button {
     width: 100%;
     height: 50px;
+    font-size: 18px;
     color: white;
     border: 1px solid black;
     background: black;
