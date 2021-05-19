@@ -1482,6 +1482,18 @@ header .container .menu .menu__item:first-child{
         width: 100%;
         padding: 0 20px;
     }
+
+
+
+
+    #we1 .we1__wrap .we1__text h3::before {
+        display: none;
+    }
+    #we2 .we2__wrap .we2__text h3::before {
+        display: none;
+    }
+
+
     #about-us {
         background: none;
         height: auto;
