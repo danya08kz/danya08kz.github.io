@@ -830,6 +830,7 @@ header .container .menu .menu__item:first-child{
     height: 72%;
 }
 #ruslan .container .ruslan__back{
+    overflow: hidden;
     position: absolute;
     font-size: 220px;
     opacity: 0.05;
