@@ -92,7 +92,18 @@ header .container .menu .menu__item:hover::before {
 header .container .menu .menu__item:first-child{
     margin-left: 0;
 }
-
+#we2 {
+    overflow: visible;
+}
+#we1 {
+    overflow: visible;
+}
+#ruslan {
+    overflow: visible;
+}
+#idea {
+    overflow: visible;
+}
 #about-us {
     height: 500px;
     position: relative;
