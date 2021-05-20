@@ -23,6 +23,7 @@ a:visited {
     height: 100%;
     margin: 0 auto;
     position: relative;
+    overflow-x: clip;
 }
 section {
     margin-bottom: 80px;
