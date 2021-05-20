@@ -214,6 +214,11 @@ header .container .menu .menu__item:first-child{
     align-items: center;
     justify-content: center;
 }
+.prof {
+    font-weight: 600;
+    padding: 0 !important;
+    display: inline !important;
+}
 #about-info .about__items hr{
     border: 1px solid;
     width: 125px;
@@ -1488,7 +1493,41 @@ header .container .menu .menu__item:first-child{
     right: 0;
     transition: 0.3s all;
 }
+
+
 @media (max-width: 1600px) {
+    #we1 .we1__wrap .we1__text h3::before {
+        content: '';
+        position: absolute;
+        background: url(../img/darts.png) center / cover no-repeat;
+        width: 75px;
+        height: 75px;
+        right: -90px;
+        top: -31px;
+    }
+    #we1 .we1__wrap .we1__text h3 {
+        font-size: 35px;
+        font-weight: 600;
+        margin-bottom: 40px;
+        position: relative;
+        width: fit-content;
+    }
+    #we2 .we2__wrap .we2__text h3 {
+        font-size: 35px;
+        font-weight: 600;
+        margin-bottom: 40px;
+        position: relative;
+        width: fit-content;
+    }
+    #we2 .we2__wrap .we2__text h3::before {
+        content: '';
+        position: absolute;
+        background: url(../img/pazl.svg) center / cover no-repeat;
+        width: 75px;
+        height: 75px;
+        right: -90px;
+        top: -30px;
+    }
     #stats img {
         display: none;
         z-index: 0;
@@ -1542,12 +1581,6 @@ header .container .menu .menu__item:first-child{
     }
 
 
-    #we1 .we1__wrap .we1__text h3::before {
-        display: none;
-    }
-    #we2 .we2__wrap .we2__text h3::before {
-        display: none;
-    }
 
 
     #about-us {
@@ -2046,6 +2079,25 @@ header .container .menu .menu__item:first-child{
     }
 }
 @media (max-width: 550px) {
+    #we2 .we2__wrap .we2__text h3::before {
+        content: '';
+        position: absolute;
+        background: url(../img/pazl.svg) center / cover no-repeat;
+        width: 50px;
+        height: 50px;
+        right: -56px;
+        top: -15px;
+    }
+    #we1 .we1__wrap .we1__text h3::before {
+        content: '';
+        position: absolute;
+        background: url(../img/darts.png) center / cover no-repeat;
+        width: 50px;
+        height: 50px;
+        right: 20px;
+        top: -15px;
+    }
+
 
     #idea .container .idea__back {
         left: 2%;
@@ -2287,6 +2339,7 @@ header .container .menu .menu__item:first-child{
     }
     #ruslan {
         margin-bottom: 40px;
+        margin-top: 100px;
     }
     #spec .container h2 {
         font-weight: 400;
@@ -2300,11 +2353,8 @@ header .container .menu .menu__item:first-child{
         font-style: 15px;
     }
     #we1 {
-        margin-top: 40px;
+        margin-top: 100px;
         margin-bottom: 40px;
-    }
-    #we1 .we1__wrap .we1__text h3::before {
-        display: none;
     }
     #we1 .we1__wrap .we1__text h3 {
         font-size: 25px;
@@ -2403,6 +2453,7 @@ header .container .menu .menu__item:first-child{
     }
     #we2 {
         margin-bottom: 40px;
+        margin-top: 100px;
     }
     #we2 .we2__wrap .we2__text {
         margin-bottom: 20px;
@@ -2411,9 +2462,6 @@ header .container .menu .menu__item:first-child{
         width: 100%;
         display: block;
         margin: 0 auto;
-    }
-    #we2 .we2__wrap .we2__text h3::before {
-        display: none;
     }
     .mobile-nav {
         margin-right: 15px;
