@@ -1489,7 +1489,7 @@ header .container .menu .menu__item:first-child{
 }
 @media (max-width: 1600px) {
     #stats img {
-        display: block;
+        display: none;
         z-index: 0;
         opacity: 0.05;
     }
