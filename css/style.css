@@ -28,7 +28,7 @@ section {
     margin-bottom: 80px;
     max-width: 1920px;
     margin: 0 auto 80px;
-    overflow: hidden;
+    overflow-x: clip;
 }
 header {
     height: 120px;
@@ -830,7 +830,6 @@ header .container .menu .menu__item:first-child{
     height: 72%;
 }
 #ruslan .container .ruslan__back{
-    overflow: hidden;
     position: absolute;
     font-size: 220px;
     opacity: 0.05;
